@@ -1,0 +1,111 @@
+.work{
+    .info-section{
+        width: 20%;
+    }
+
+   
+    .content-area{
+
+        background: $color3;
+        margin-left: 20%;
+        background: white;
+        width:80%;
+        height: 100%;
+         overflow: hidden;
+
+         .work-section{
+             margin-bottom: 56px;
+            h1{
+                font-weight: 700;
+                font-size: 2rem;
+                text-transform: uppercase;
+                margin-bottom: 56px;
+                letter-spacing: .3rem;
+            }
+            
+    
+            .project-section{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 10px;
+               
+                max-width: 96%;
+                
+                .project-box{
+                    position: relative;
+                    &:hover{
+                        -webkit-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                        -moz-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                        box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                      
+                    }
+                   padding: 30px;
+                   transition: all .3s ease-in-out;
+                   -webkit-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        -moz-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                        height: 400px;
+                        cursor: pointer;
+
+                .grey-bg{
+                    background: $color6;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: all .3s ease-in-out;
+
+                    &:hover{
+                        opacity: 0.9;
+                    }
+
+                    .project-info{
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        padding: 56px;
+
+                        .project-details{
+                            position: relative;
+                            font-size: 1.1rem;
+                            text-transform: capitalize;
+                            margin: 0 0 1rem;
+                        }
+                        .project-title{
+                            font-size: 1.8rem;
+                            text-transform: uppercase;
+                            font-weight: 700;
+                        }
+                        .fa-eye{
+                            position: absolute;
+                            right: 56px;
+                            bottom: 56px;
+                            font-size: 1.5rem;
+                           // color: $color1;
+                        }
+                    }
+
+                }
+                   h5{
+                    font-weight: 500;
+                    font-size: 1.3rem;
+                    margin-bottom: 1.4rem;
+                }
+                p{
+                    font-weight: 300;
+                    font-size: 1rem; 
+                    margin-bottom: 1rem;
+                }
+                }
+            }
+         }
+
+        
+    }
+}
