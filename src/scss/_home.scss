@@ -1,40 +1,14 @@
 .home{
 
-    .logo{
-        background: white;
-        height: 100px;
-        width: 200px;
-    }
+ 
     .info-section{
         padding: 54px;
         width: 35%;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-
-    .info-box{
-       
-        position: absolute;
-        bottom: 60px;
-
-        h4{
-            font-size: 1.2rem;
-            color: $color3;
-            margin: 0.7rem 0;
-        }
-        p{
-            font-size: .9rem;
-            font-weight: 300;
-            color: $color3;
-            margin: 0.2rem 0 1.6rem;
-
-        }
-    }
-
+ 
 
     }
     .content-area{
+        background: $color3;
         margin-left: 35%;
         background: white;
         width: 65%;
@@ -68,7 +42,32 @@ box-shadow: 10px 12px 29px -1px rgba(75,33,255,0.69);
     .profile-section{
         vertical-align: top;
        display: inline-block;
+       max-width: 500px;
+       padding: 20% 0 0;
        
-    }
+       .profile{
+           h1{
+               font-size: 2.3rem;
+               font-weight: 500;
+               line-height: 1.2;
+               margin: 0 0 1rem;
+               span{
+                   color: $color1;
+               }
+           }
+           h5{
+               font-size: 1.1rem;
+               margin: 0 0 2rem;
+
+           }
+           p{
+               color: $color4;
+               font-weight: 300;
+               line-height: 1.4;
+               margin: 0 0 2rem;
+           }
+       }
+
+     }
     }
 }
