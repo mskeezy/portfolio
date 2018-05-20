@@ -1,0 +1,126 @@
+.contact{
+
+ 
+    .info-section{
+        padding: 54px;
+        width: 35%;
+ 
+
+    }
+    .content-area{
+        background: $color3;
+        margin-left: 35%;
+        background: white;
+        width: 65%;
+        height: 100%;
+        // padding: 0 0 0 25%;
+        .img-container{
+            display: inline-block;
+            width: 30%;
+            position: relative;
+            height: 100%;
+
+            .form-section{
+                overflow-y: scroll;
+                overflow-x: hidden;
+                position: absolute;
+                top: 56px;
+                left: -250px;
+                width: 500px;
+                height: calc(100% - 112px);
+                background: $color2;
+                color: $color3;
+                padding: 46px;
+                -webkit-box-shadow: 10px 12px 29px -1px rgba(75,33,255,0.69);
+                -moz-box-shadow: 10px 12px 29px -1px rgba(75,33,255,0.69);
+                box-shadow: 10px 12px 29px -1px rgba(75,33,255,0.69);
+
+                h4{
+                    font-size: 1.3rem;
+                    margin-bottom: 3rem;
+                   
+                }
+
+                input[type="text"],
+                input[type="email"],
+                    
+                    textarea{
+                    width: 100%;
+                    background: transparent;
+                    border: none;
+                    border-bottom: 2px solid $color4;
+                    margin-bottom: 2rem;
+                    font-size: 0.9rem;
+                    text-transform: uppercase;
+                    line-height: 1.2;
+                    color: $color4;
+                    padding: 15px 0;
+                }
+                button[type="submit"]{
+                    background: $color1;
+                    border: none;
+                    font-size: 1rem;
+                    color: $color3;
+                    text-transform: uppercase;
+                    width: 100%;
+                    -webkit-border-radius: 30px;
+                    -moz-border-radius: 30px;
+                    border-radius: 30px;
+                    text-align: center;
+                    padding: 17px 30px;
+                    letter-spacing: 0.2rem;
+                }
+            }
+        }
+        
+    .contact-section{
+        vertical-align: top;
+       display: inline-block;
+       width: 70%;
+       float: right;
+       padding: 56px 0 0;
+       
+       .contact-info{
+           h1{
+               font-size: 2.3rem;
+               font-weight: 500;
+               line-height: 1.2;
+               margin: 0 0 1rem;
+               span{
+                   color: $color1;
+               }
+           }
+
+           .contact-box{
+               max-width: 600px;
+               &:hover{
+                        -webkit-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                        -moz-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                        box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.5);
+                      
+                    }
+                   padding: 30px;
+                   transition: all .3s ease-in-out;
+                   -webkit-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        -moz-box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        box-shadow: 5px 12px 29px -1px rgba(75,33,255,0.1);
+                        cursor: pointer;
+            h5{
+                font-weight: 600;
+                font-size: 1.1rem;
+                margin: 0 0 1.4rem;
+ 
+            }
+            p{
+                color: $color4;
+                font-weight: 300;
+                line-height: 1.4;
+                margin: 0 0 2rem;
+            } 
+           }
+           
+       }
+
+     }
+    }
+}
