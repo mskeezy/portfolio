@@ -95,7 +95,8 @@ table {
   margin-left: 35%;
   background: white;
   width: 65%;
-  height: 100%; }
+  height: 100%;
+  overflow: auto; }
   .home .content-area .img-container {
     display: inline-block;
     width: 30%;
@@ -135,6 +136,75 @@ table {
       font-weight: 300;
       line-height: 1.4;
       margin: 0 0 2rem; }
+
+@media (max-width: 767px) {
+  .home .menu-icon {
+    top: -3px;
+    color: white;
+    right: 20px; }
+    .home .menu-icon .fa {
+      color: white; }
+    .home .menu-icon .content-area::after {
+      content: "";
+      display: table;
+      clear: both; }
+  .home .info-section {
+    padding: 10px 20px;
+    position: static; }
+    .home .info-section .logo {
+      height: 50px;
+      width: 70px;
+      font-size: 0.9rem; }
+    .home .info-section .info-box {
+      display: none; }
+  .home .content-area {
+    margin-left: 0;
+    width: 100%; }
+    .home .content-area .img-container {
+      padding: 56px 20px 0; }
+      .home .content-area .img-container .user-img {
+        position: static;
+        width: 100%; }
+    .home .content-area .profile-section {
+      width: 70%;
+      float: right;
+      padding: 20% 20px 0; }
+      .home .content-area .profile-section .primary-btn, .home .content-area .profile-section .ghost-btn {
+        margin-bottom: 20px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: right;
+    padding: 20% 20px 0; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+    .home .content-area .img-container .user-img {
+      position: static;
+      width: 100%; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    padding: 20% 20px 0;
+    max-width: 800px; } }
+
+@media (min-width: 1200px) {
+  .home .content-area .img-container {
+    padding: 56px 20px 0;
+    float: left; }
+  .home .content-area .profile-section {
+    width: 70%;
+    float: left;
+    padding: 20% 60px 0;
+    max-width: 800px; } }
 
 .resume .info-section {
   width: 20%; }
